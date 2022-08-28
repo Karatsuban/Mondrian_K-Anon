@@ -9,16 +9,16 @@ Implementation of the Mondrian Multidimensional K-anonymity paper [1]
 
 All parameters are mandatory !
 
-K : Integer value for the K-anonymity algorithm
-input_file : Path to the input file (must be .csv)
-qid_names : Quasi-identifiers columns names to anonymize, separated by ',' (eg name1,name2,...)
-algo_type : Variant of the Mondrian algorithm, either 'relaxed' or 'strict'
-output_file : Path to the output_file (also .csv)
+K : Integer value for the K-anonymity algorithm<br/>
+input_file : Path to the input file (must be .csv)<br/>
+qid_names : Quasi-identifiers columns names to anonymize, separated by ',' (eg name1,name2,...)<br/>
+algo_type : Variant of the Mondrian algorithm, either 'relaxed' or 'strict'<br/>
+output_file : Path to the output_file (also .csv)<br/>
 
 
 # Data & tests
 
-The data provided in the DATA folder can be found here:
+The data provided in the DATA folder can be found here:<br/>
 -https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice<br/>
 -https://archive.ics.uci.edu/ml/datasets/adult (a header was added)<br/>
 -https://archive.ics.uci.edu/ml/machine-learning-databases/00519/<br/>
