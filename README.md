@@ -1,10 +1,10 @@
-# Mondrian_K-Anon
+# Mondrian_K-Anonymity
 Implementation of the Mondrian Multidimensional K-anonymity paper [1]
 
 # Usage
 
--Clone this repository and go to the main folder
--Execute the code as follow :
+-Clone this repository and go to the main folder<br/>
+-Execute the code as follow :<br/>
 ```$ python Mondrian.py [K] [input_file] [qid_names] [algo_type] [output_file]```
 
 All parameters are mandatory !
@@ -20,8 +20,10 @@ output_file : Path to the output_file (also .csv)<br/>
 
 The data provided in the DATA folder can be found here:<br/>
 -https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice<br/>
--https://archive.ics.uci.edu/ml/datasets/adult (a header was added)<br/>
+-https://archive.ics.uci.edu/ml/datasets/adult<br/>
 -https://archive.ics.uci.edu/ml/machine-learning-databases/00519/<br/>
+
+Please note that for the "adult" dataset, a header was added and a blank line was removed.
 
 You can test on this data with those commands :
 ```
